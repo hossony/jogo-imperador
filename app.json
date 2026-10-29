@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "Imperium",
+    "slug": "imperium",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "backgroundColor": "#120A08",
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.imperium.jogo",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "backgroundColor": "#2A100C",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-font",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/splash-icon.png",
+          "imageWidth": 220,
+          "resizeMode": "contain",
+          "backgroundColor": "#120A08"
+        }
+      ]
+    ]
+  }
+}
